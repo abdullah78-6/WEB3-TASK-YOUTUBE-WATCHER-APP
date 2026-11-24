@@ -116,7 +116,7 @@ cp .env.example .env
 npm install
 npm run dev
 ```
-
+LIVE-URL:https://web3-task-youtube-watcher-app-frontend.onrender.com
 The frontend runs on `http://localhost:5173`. Open two browser tabs to test real-time synchronization, role assignment, and participant approval requests!
 
 ---
