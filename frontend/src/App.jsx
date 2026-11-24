@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import HomePage from "./pages/HomePage";
 import WatchRoomPage from "./pages/WatchRoomPage";
-const BACKEND_URL ="http://localhost:5000";
+const BACKEND_URL ="https://web3-task-youtube-watcher-app-backend.onrender.com";
 function getRoomCodeFromUrl() {
   const params = new URLSearchParams(window.location.search);
   return (params.get("room") || "").trim().toUpperCase();
