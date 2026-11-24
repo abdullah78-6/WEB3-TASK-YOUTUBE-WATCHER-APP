@@ -7,7 +7,7 @@ const { registerSocketHandlers } = require("./controllers/socketController");
 
 const PORT=5000;
 const MONGO_URI = "mongodb+srv://greatstack:123456abdullah@cluster0.siw3vfv.mongodb.net/YOUTUBE-WATCH-PARTY";
-const CLIENT_ORIGIN = "http://localhost:5173" || "*";
+const CLIENT_ORIGIN = "https://web3-task-youtube-watcher-app-frontend.onrender.com" || "*";
 
 async function startServer() {
   if (MONGO_URI) {
